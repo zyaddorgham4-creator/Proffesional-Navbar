@@ -120,7 +120,7 @@ pure_veg_icon.addEventListener('click',()=>showSection(pure_veg))
 let cartItemsDiv = document.getElementById('cart-items')
 let cart = [];
 
-window.addEventListener('click',function(e){
+document.addEventListener('click',function(e){
     if(e.target.classList.contains('plus'))
     {
         let product = e.target.closest(".product");
@@ -174,7 +174,7 @@ function removeFromCart(name) {
 }
 
 
-window.addEventListener('click',function(e){
+document.addEventListener('click',function(e){
     if(e.target.classList.contains('minous'))
     {
         let name = product.dataset.name;
@@ -184,6 +184,7 @@ window.addEventListener('click',function(e){
             existing.quantity--;
            displayCart();
         }
+
 
 
 
