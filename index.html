@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <link href="photo/icon.png" type="img/x-icon" rel="icon">
+</head>
+<body>
+    
+  <nav class="navbar">
+
+    <div class="left-section">
+      <h1 class="font-bold capitalize text-2xl text-[orangered] tracking-[2px]">tomato.</h1>
+    
+    </div>
+
+    <i class="fas fa-bars menu-toggle text-black" id="menu-toggle"></i>
+
+    <div class="center-section" id="nav-links">
+      <a href="#home" id="home">home</a>
+      <a href="#menu" id="menu">menu</a>
+      <a href="#mobile" id="mobile">mobile app</a>
+      <a href="#contact" id="contact">contact us</a>
+
+
+    </div>
+
+    <div class="right-section text-black" id="nav-buttons">
+
+      <i class="fa-solid text-xl fa-magnifying-glass"></i>
+     <i class="fa-solid text-xl fa-basket-shopping"></i>
+     <input id="sign_in" type="button" value="sign in" class="h-[35px] w-[80px] text-center capitalize tracking-[1px] text-[orangered]">
+    </div>
+    
+  </nav>
+
+  <div style="margin: 0 auto; margin-top: 150px; " class="relative h-full lg:h-[550px] lg:w-[60vw]" >
+
+    <img class=" lg:h-[550px] h-[80vh] lg:w-[60vw] rounded-[20px]" src="photo/dish.jpg" alt="photo" title="image">
+
+    <div class="absolute top-[-60px] lg:top-0 text-[white]" style="margin-top: 100px; margin-left: 50px">
+      <h3 style="padding: 15px;" class="capitalize text-2xl lg:text-4xl font-semibold tracking-[2px] max-w-[420px] text-start leading-[45px]">order your favourite food here</h3>
+      <p style="padding: 15px;" class="capitalize tracking-[1px] opacity-[0.9] max-w-[550px] leading-[30px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident magnam ipsam quas quis ratione enim explicabo itaque iure, eveniet laboriosam esse optio aut, maiores autem. Aperiam neque omnis fuga quisquam cumque corporis tenetur quibusdam beatae?</p>
+      <button style="margin: 20px;" class="capitalize tracking-[1px] h-[40px] font-semibold  w-[120px] bg-[white] rounded-[20px] text-black text-center">view menu</button>
+    </div>
+
+
+</div>
+
+  <div class="flex flex-col gap-[10px] justify-center text-start items-start relative top-[25px] left-[10px] lg:left-[390px] lg:top-[50px]">
+  <h3 class="capitalize tracking-[2px] font-bold text-3xl">explore our menu</h3>
+  <p class="capitalize tracking-[1px] w-full lg:max-w-[850px] leading-[35px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, aut omnis corrupti soluta veniam blanditiis quae quia et eos vitae voluptate explicabo in ad accusantium ipsam vero, aspernatur molestiae. Consequuntur.</p>
+</div>
+
+<section style="margin-top: 80px;" class="h-full w-[100vw] bg-[white]">
+
+   <div  class="flex justify-center  flex-wrap lg:flex-row items-center gap-[30px]">
+
+     <div  id="salad_icon" class="flex flex-col gap-[8px] justify-center items-center">
+
+      <img class="h-[100px] w-[100px] rounded-full" src="photo/salad.avif" alt="photo" title="salad">
+      <h4 class="capitalize text-xl tracking-[1px]">salad</h4>
+
+     </div>
+
+      <div id="rolls_icon" class="flex flex-col gap-[8px] justify-center items-center">
+
+      <img class="h-[100px] w-[100px] rounded-full" src="photo/rolls.avif" alt="photo" title="rolls">
+      <h4 class="capitalize text-xl tracking-[1px]">rolls</h4>
+
+     </div>
+
+      <div id="desert_icon" class="flex flex-col gap-[8px] justify-center items-center">
+
+      <img class="h-[100px] w-[100px] rounded-full" src="photo/desert.avif" alt="photo" title="desserts">
+      <h4 class="capitalize text-xl tracking-[1px]">desserts</h4>
+
+     </div>
+
+      <div id="sandwitch_icon" class="flex flex-col gap-[8px] justify-center items-center">
+
+      <img class="h-[100px] w-[100px] rounded-full" src="photo/sandwitch.avif" alt="photo" title="sandwitch">
+      <h4 class="capitalize text-xl tracking-[1px]">sandwitch</h4>
+
+     </div>
+
+      <div id="cake_icon" class="flex flex-col gap-[8px] justify-center items-center">
+
+      <img class="h-[100px] w-[100px] rounded-full" src="photo/cake.avif" alt="photo" title="cake">
+      <h4 class="capitalize text-xl tracking-[1px]">cake</h4>
+
+     </div>
+
+      <div id="pure_veg_icon" class="flex flex-col gap-[8px] justify-center items-center">
+
+      <img class="h-[100px] w-[100px] rounded-full" src="photo/pure.avif" alt="photo" title="pur vege">
+      <h4 class="capitalize text-xl tracking-[1px]">pure veg</h4>
+
+     </div>
+
+      <div id="pasta_icon" class="flex flex-col gap-[8px] justify-center items-center">
+
+      <img class="h-[100px] w-[100px] rounded-full" src="photo/pasta.avif" alt="photo" title="pasta">
+      <h4 class="capitalize text-xl tracking-[1px]">pasta</h4>
+
+     </div>
+
+        <div id="noodels_icon" class="flex flex-col gap-[8px] justify-center items-center">
+
+      <img class="h-[100px] w-[100px] rounded-full" src="photo/noodels1.avif" alt="noodels" title="salad">
+      <h4 class="capitalize text-xl tracking-[1px]">noodels</h4>
+
+     </div>
+
+
+   </div>
+   
+   <div style=" margin: 0 auto;" class="h-[2px] rounded-[10px] opacity-[0.6] shadow-2xl w-[80vw] bg-[black] relative lg:top-[15px]"></div>
+
+</section>
+
+<!-- products -->
+
+<section style="margin-top: 70px;" class="h-full w-[100vw] bg-[white]">
+
+  <div class="flex justify-start items-center  h-[10vh] relative left-[10px] lg:left-[200px]">
+    <h1 class="capitalize text-2xl font-semibold tracking-[1px]">top dishes near you</h1>
+  </div>
+
+  <div class="flex flex-col justify-center items-center gap-[40px]">
+
+    <!-- salad -->
+    <div id="salad" class="flex scalling flex-wrap lg:flex-row justify-center items-center gap-[25px]">
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px]" src="photo/saladg1.avif" alt="photo" title="greek salad">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">greek salad</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+      <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px]" src="photo/vegsalad.avif" alt="photo" title="veg salad">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">veg salad</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+      <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/cloversalad1.avif" alt="photo" title="clover salad">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">clover salad</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+      <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px]" src="photo/chickensalad.avif" alt="photo" title="chicken salad">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">chicken salad</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+  </div>
+
+  <!-- swshi -->
+
+  <div id="rolls" class="flex flex-wrap scalling lg:flex-row justify-center items-center gap-[25px]">
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/lasagnarolls1.avif" alt="photo" title="lasagna rolls">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">lasagna rolls</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+      <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px]" src="photo/perirolls.avif" alt="photo" title="peri peri rolls">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">peri peri rolls</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+      <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px]" src="photo/chickenrolls1.avif" alt="photo" title="chicken rolls">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">chicken rolls</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+      <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px]" src="photo/vegrolls.avif" alt="photo" title="veg rolls">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">veg rolls</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+  </div>
+
+  <!-- ice cream -->
+
+    <div id="desert" class="flex flex-wrap scalling lg:flex-row justify-center items-center gap-[25px]">
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/rippleicecream.avif" alt="photo" title="ripple ice cream">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">ripple ice cream</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/rippleicecream1.avif" alt="photo" title="fruit ice cream">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">fruit ice cream</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/rippleicecream2.avif" alt="photo" title="jar ice cream">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">jar ice cream</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/vanilla2.avif" alt="photo" title="jar ice cream">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">vanilla ice cream</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+  </div>
+
+    <!-- sandwitch -->
+
+    <div id="sandwitch" class="flex flex-wrap scalling lg:flex-row justify-center items-center gap-[25px]">
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/chickensandwitch1.avif" alt="photo" title="chicken sandwitch">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">chicken sandwitch</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/vegansandwitch.avif" alt="photo" title="vegan sandwitch">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">vegan sandwitch</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/grilledsandwitch.avif" alt="photo" title="grilled sandwitch">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">grilled sandwitch</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/breadsandwitch.avif" alt="photo" title="bread sandwitch">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">bread sandwitch</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+  </div>
+
+   <!-- cake -->
+
+    <div id="cake" class="flex flex-wrap scalling lg:flex-row justify-center items-center gap-[25px]">
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/cupcake1.avif" alt="photo" title="cup cake">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">cup cake</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/vegancake1.avif" alt="photo" title="vegan cake">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">vegan cake</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/bufferscotchcake.avif" alt="photo" title="bufferscotch cake">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">bufferscotch cake</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/bufferscotchcake1.avif" alt="photo" title="sliced cake">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">sliced cake</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+  </div>
+
+   <!-- pure veg -->
+
+  <div id="pure_veg" class="flex flex-wrap scalling lg:flex-row justify-center items-center gap-[25px]">
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/garlicmashroom.avif" alt="photo" title="garlic mashroom">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">garlic mashroom</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/friedcoulflower.avif" alt="photo" title="fried coulflower">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">fried coulflower</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/mixvagpulao.avif" alt="photo" title="mix vag pulao">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">mix vag pulao</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/ricezucchini1.avif" alt="photo" title="rice zucchini">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">rice zucchini</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+  </div>
+
+
+     <!-- pasta -->
+    <div id="pasta" class="flex flex-wrap scalling lg:flex-row justify-center items-center gap-[25px]">
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/cheesepasta.avif" alt="photo" title="cheese pasta">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">cheese pasta</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/tomatopasta1.avif" alt="photo" title="tomato pasta">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">tomato pasta</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/creamypasta2.avif" alt="photo" title="creamy pasta">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">creamy pasta</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+     <div class="h-[450px] scale w-[350px] bg-[white] shadow-2xl rounded-[10px]">
+
+       <div class="relative">
+
+        <img class="rounded-[10px] h-[250px] w-full" src="photo/chickenpasta.avif" alt="photo" title="rice zucchini">
+
+        <div class="absolute right-[10px] bottom-[10px]">
+           
+          <div class="flex parent flex-row gap-[8px] justify-center h-[40px] w-[50px] bg-[white] shadow-lg rounded-full items-center">
+
+            <i class="fa-solid plus p-[5px] fa-plus"></i>
+
+             <div class="hiddens justify-center items-center gap-[8px]">
+               <p class="operation">0</p>
+             <i  class="fa-solid minous fa-minus"></i>
+
+             </div>
+
+          </div>
+
+        </div>
+
+       </div>
+
+       <div class="flex  justify-between items-center">
+
+        <h3 style="margin-top: 10px; padding: 10px;" class="capitalize font-semibold tracking-[1px]">checkin pasta</h3>
+
+        <div style="margin-top: 10px; padding: 10px;" class="flex star_parent gap-[5px]">
+
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-solid change_color text-[yellowgreen] fa-star"></i>
+          <i class="fa-regular change_color fa-star"></i>
+
+        </div>
+
+       </div>
+
+       <div style="margin-top: 10px; padding: 10px;" class="flex flex-col justify-center items-start gap-[10px]">
+        <p  class="capitalize tracking-[1px] opacity-[0.7] max-w-[350px] leading-[30px]">food provides essential nuturals for overall health and well-being </p>
+        <small class="font-bold text-xl text-[orange]">$12</small>
+       </div>
+
+     </div>
+
+  </div>
+
+  </div>
+
+</section>
+
+
+<section id="hidden_temporary" class="h-[100%] w-[100%] fixed top-0 bg-[black] opacity-[0.9]">
+
+  <div id="hidden_sign_in" style="margin: 0 auto;" class="h-[400px] w-[350px] rounded-[8px] bg-[whitesmoke] relative top-[180px]">
+ 
+ <div class="flex justify-between items-center">
+
+  <p style="padding: 15px;" class="capitalize tracking-[1px] text-xl">sign up</p>
+  <i id="hidden_all" style="padding: 15px;" class="fa-solid fa-x"></i>
+
+ </div>
+
+ <form>
+  <input style="margin-left: 20px; margin-top: 10px;" class="border shadow-sm outline-none h-[35px] w-[90%] capitalize tracking-[1px] rounded-[8px]" type="text" placeholder="enter your number">
+   <input style="margin-left: 20px; margin-top: 20px;" class="border shadow-sm outline-none h-[35px] w-[90%] capitalize tracking-[1px] rounded-[8px]" type="email" placeholder="enter your email">
+    <input style="margin-left: 20px; margin-top: 30px;" class="border shadow-sm outline-none h-[35px] w-[90%] capitalize tracking-[1px] rounded-[8px]" type="password" placeholder="enter your password">
+    <input style="margin-left: 20px; margin-top: 10px;" class="border shadow-sm outline-none h-[40px] text-[white]  bg-[orangered] w-[90%] capitalize tracking-[1px] rounded-[8px]" type="button" value="create account">
+ </form>
+
+ <div style="margin: 10px;padding: 10px;">
+   <input id="box" type="checkbox">
+ <label class="capitalize tracking-[1px] opacity-[0.7]" for="box">by configration i agree to the forms of use & privacy policy.</label>
+
+ </div>
+
+ <div style="margin-left: 20px;">
+  <p class="capitalize tracking-[1px] font-semibold">already have an account? <a id="log_in" class="text-[orangered]" href="#">login here</a></p>
+ </div>
+
+  </div>
+
+
+  <div id="hidden_log_in" style="margin: 0 auto; display: none;" class="h-[400px]  w-[350px] rounded-[8px] bg-[whitesmoke] relative top-[180px]">
+ 
+ <div class="flex justify-between items-center">
+
+  <p style="padding: 15px;" class="capitalize tracking-[1px] text-xl">sign up</p>
+  <i id="hidden_all_log_in" style="padding: 15px;" class="fa-solid fa-x"></i>
+
+ </div>
+
+ <form>
+   <input style="margin-left: 20px; margin-top: 20px;" class="border shadow-sm outline-none h-[35px] w-[90%] capitalize tracking-[1px] rounded-[8px]" type="email" placeholder="enter your email">
+    <input style="margin-left: 20px; margin-top: 30px;" class="border shadow-sm outline-none h-[35px] w-[90%] capitalize tracking-[1px] rounded-[8px]" type="password" placeholder="enter your password">
+    <input style="margin-left: 20px; margin-top: 10px;" class="border shadow-sm outline-none h-[40px] text-[white]  bg-[orangered] w-[90%] capitalize tracking-[1px] rounded-[8px]" type="button" value="log in">
+ </form>
+
+ <div style="margin: 10px;padding: 10px;">
+   <input id="boxs" type="checkbox">
+ <label class="capitalize tracking-[1px] opacity-[0.7]" for="boxs">by configration i agree to the forms of use & privacy policy.</label>
+
+ </div>
+
+ <div style="margin-left: 20px;">
+  <p class="capitalize tracking-[1px] font-semibold">creating new account? <a id="new_account" class="text-[orangered]" href="#">click here</a></p>
+ </div>
+
+  </div>
+
+
+</section>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
