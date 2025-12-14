@@ -116,3 +116,72 @@ desert_icon.addEventListener('click',()=>showSection(desert))
 sandwitch_icon.addEventListener('click',()=>showSection(sandwitch))
 cake_icon.addEventListener('click',()=>showSection(cake))
 pure_veg_icon.addEventListener('click',()=>showSection(pure_veg))
+
+let cartItemsDiv = document.getElementById('cart-items')
+let cart = [];
+
+document.addEventListener('click',function(e){
+    if(e.target.classList.contains('plus'))
+    {
+        let product = e.target.closest(".product");
+        let name = product.dataset.name;
+        let price = Number(product.dataset.price);
+        let imgsrc = product.querySelector('img').src;
+        let existing = cart.find(item=>item.name==name)
+        if(existing)
+        {
+            existing.quantity++;
+        }else{
+            cart.push({name,price,img:imgsrc,quantity:1})
+        }
+        displayCart();
+    }
+
+    if(e.target.classList.contains('remove-btn'))
+    {
+        let name = e.target.dataset.name;
+        removeFromCart(name);
+        displayCart();
+    }
+})
+
+document.addEventListener('click',function(e){
+    if(e.target.classList.contains('minous'))
+    {
+        let name = product.dataset.name;
+        let existing = cart.find(item=>item.name==name)
+        if(existing)
+        {
+            existing.quantity--;
+           displayCart();
+        }
+        
+
+function displayCart() {
+  cartItemsDiv.innerHTML = "";
+  cart.forEach(item => {
+    const div = document.createElement("div");
+    div.className = "cart-item";
+    div.innerHTML = `
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom:10px;">
+        <img src="${item.img}" width="50" height="50" style="border-radius: 8px;">
+        <div>
+          <strong>${item.name}</strong><br>
+          السعر: ${item.price} جنيه × ${item.quantity} = <b>${item.price * item.quantity}</b> جنيه
+          <br>
+          <button class="remove-btn" data-name="${item.name}" style="margin-top:5px;">حذف</button>
+        </div>
+      </div>
+    `;
+    cartItemsDiv.appendChild(div);
+  });
+}
+
+
+function removeFromCart(name) {
+  cart = cart.filter(item => item.name !== name);
+  displayCart();
+}
+
+
+
