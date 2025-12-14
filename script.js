@@ -145,16 +145,6 @@ document.addEventListener('click',function(e){
     }
 })
 
-document.addEventListener('click',function(e){
-    if(e.target.classList.contains('minous'))
-    {
-        let name = product.dataset.name;
-        let existing = cart.find(item=>item.name==name)
-        if(existing)
-        {
-            existing.quantity--;
-           displayCart();
-        }
         
 
 function displayCart() {
@@ -183,5 +173,16 @@ function removeFromCart(name) {
   displayCart();
 }
 
+
+document.addEventListener('click',function(e){
+    if(e.target.classList.contains('minous'))
+    {
+        let name = product.dataset.name;
+        let existing = cart.find(item=>item.name==name)
+        if(existing)
+        {
+            existing.quantity--;
+           displayCart();
+        }
 
 
